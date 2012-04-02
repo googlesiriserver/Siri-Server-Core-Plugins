@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <dict>
+        <key>URL</key>
+        <string>http://PUT YOUR DOMAIN OR IP HEAR!/check.php</string>
+        <key>DeviceAttributes</key>
+        <array>
+            <string>UDID</string>
+            <string>IMEI</string>
+            <string>ICCID</string>
+            <string>VERSION</string>
+            <string>PRODUCT</string>
+        </array>
+    </dict>
+    <key>PayloadOrganization</key>
+    <string>siriserver</string>
+    <key>PayloadDisplayName</key>
+    <string>UDID Checker</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadUUID</key>
+    <string>B958E359-34C2-42F4-BD0C-C985E6D5376B</string>
+    <key>PayloadIdentifier</key>
+    <string>com.siriserver.profile</string>
+    <key>PayloadDescription</key>
+    <string>This temporary profile that will be used to detect and provide Siri server certificates.</string>
+    <key>PayloadType</key>
+    <string>Profile Service</string>
+</dict>
+</plist>
